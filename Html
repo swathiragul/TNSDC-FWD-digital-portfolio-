@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My E-Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My E-Portfolio</h1>
+    <button id="themeToggle">🌙</button>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm a web developer passionate about creating modern, responsive websites and applications.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skill">
+      <span>HTML</span>
+      <div class="bar"><div class="progress" style="width: 90%"></div></div>
+    </div>
+    <div class="skill">
+      <span>CSS</span>
+      <div class="bar"><div class="progress" style="width: 80%"></div></div>
+    </div>
+    <div class="skill">
+      <span>JavaScript</span>
+      <div class="bar"><div class="progress" style="width: 75%"></div></div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Weather App</h3>
+      <p>A simple app that shows current weather using API.</p>
+    </div>
+    <div class="project">
+      <h3>To-Do List</h3>
+      <p>Task manager built with JavaScript and localStorage.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 My Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
